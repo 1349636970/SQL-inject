@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="login.php" method="POST">
+        <h1>Welcome to login</h1>
+        <div style="display: flex">
+            username:&nbsp;&nbsp;
+            <input type="text" name="username">
+        </div>
+        <br>
+        <div style="display: flex">
+            password:&nbsp;&nbsp;
+            <input type="password" name="password">
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
